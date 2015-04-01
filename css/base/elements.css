@@ -146,9 +146,9 @@ img {
  */ 
  
 /* Language switcher*/
-#block-languageswitcher {
-	font-size:1em;
+.language-switcher-language-url {
+	font-size:1.1em;
 	position: absolute;
 	top:-10px;
-
+	padding: 0 10px;
 }

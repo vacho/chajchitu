@@ -12,7 +12,6 @@ global-styling:
       css/components/comments.css: {}
       css/components/content.css: {}
       css/components/contextual.css: {}
-      # @see https://www.drupal.org/node/2389735
       css/components/dropbutton.component.css: {}
       css/components/featured-top.css: {}
       css/components/footer.css: {}
@@ -38,7 +37,6 @@ global-styling:
       css/components/tips.css: {}
       css/components/featured-bottom.css: {}
       css/components/user.css: {}
-      # @see https://www.drupal.org/node/2389735
       css/components/vertical-tabs.component.css: {}
       css/components/views.css: {}
       css/components/buttons.css: {}
