@@ -18,9 +18,13 @@ body {
   border-bottom-color: #ffffff;
 }
 #header {
-  background-color: #1d84c3;
-  background-image: -webkit-linear-gradient(top, #055a8e 0%, #1d84c3 100%);
-  background-image: linear-gradient(to bottom, #055a8e 0%, #1d84c3 100%);
+  background-color: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  background-image: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
+  border-top-style: solid;
+  border-top-color: #ff6600;
+  border-top-width: 8px;
+  padding: 10px 0 0 0;
 }
 a,
 .link {
