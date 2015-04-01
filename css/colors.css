@@ -49,13 +49,17 @@ a:active,
 }
 .region-header,
 .region-header a,
-.region-header li a.active,
 #name-and-slogan,
 .site-branding-block,
 #name-and-slogan a,
 .site-branding-block a,
 .region-secondary-menu .menu-item a {
-  color: #fffeff;
+  color: #000000;
+}
+
+.region-header li a.active,
+.region-header li a:hover {
+  color: #ff6600;
 }
 
 /* ---------- Color Form ----------- */

@@ -1,11 +1,11 @@
 /* --------------- System Tabs  --------------- */
 
 div.tabs {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Ubuntu", sans-serif;
   margin-bottom: 20px;
 }
 .tabs ul.primary {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 .tabs ul.primary li a {
   color: #000;

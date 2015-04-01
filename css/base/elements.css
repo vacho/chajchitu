@@ -1,4 +1,6 @@
 /* ---------- Overall Specifications ---------- */
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic);
+
 html {
   height: 100%;
 }
@@ -9,7 +11,7 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Ubuntu", san-serif ;
   font-size: 87.5%;
 }
 a {
@@ -26,7 +28,7 @@ a:focus,
   border-bottom-style: solid;
 }
 .link {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 .field-type-image a,
 h1 a,
@@ -137,4 +139,16 @@ img {
   max-width: 100%;
   height: auto;
   border: 0;
+}
+
+/*
+ * Chajchu blocks
+ */ 
+ 
+/* Language switcher*/
+#block-languageswitcher {
+	font-size:1em;
+	position: absolute;
+	top:-10px;
+
 }

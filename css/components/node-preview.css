@@ -2,7 +2,7 @@
   background: #d1e8f5;
   background-image: -webkit-linear-gradient(top, #d1e8f5, #d3e8f4);
   background-image: linear-gradient(to bottom, #d1e8f5, #d3e8f4);
-  font-family: Arial, sans-serif;
+  font-family: "Ubuntu", sans-serif;
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3333);
   position: fixed;
   z-index: 499;
