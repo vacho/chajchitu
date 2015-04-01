@@ -15,7 +15,7 @@ use Drupal\Core\Session\AccountInterface;
 
 function chajchu_block_access(Block $block, $operation, AccountInterface $account, $langcode) {
 
-  print_r($block->id);
+  print_r($block);
   if($block->id == "bartik_account_menu") {
     $block->set('region', 'secondary_menu');
     $block->set('weight', '2');
