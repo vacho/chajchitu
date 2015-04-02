@@ -1,12 +1,12 @@
 name: Chajchu
 type: theme
-base theme: bartik
-description: 'A flexible, recolorable theme with many regions and a responsive, mobile-first layout.'
+description: 'A flexible, and responsive theme.'
 package: Core
 version: 8.0.0-beta9
 core: 8.x
 libraries:
-  - chajchu/global-styling
+  - chajchu/global-style
+  - chajchu/base
 regions:
   header: Header
   primary_menu: 'Primary menu'
@@ -28,3 +28,7 @@ regions:
   footer_third: 'Footer third'
   footer_fourth: 'Footer fourth'
   footer_fifth: 'Footer fifth'
+settings:
+  shortcut_module_link: false
+base theme: bartik
+  

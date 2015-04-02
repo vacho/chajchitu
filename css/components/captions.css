@@ -15,7 +15,7 @@
   text-align: center;
 }
 
-/* Override Bartik's default blockquote and pre styles when captioned. */
+/* Override Chajchu's default blockquote and pre styles when captioned. */
 .caption-pre > pre,
 .caption-blockquote > blockquote {
   margin: 0;

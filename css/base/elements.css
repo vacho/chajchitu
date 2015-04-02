@@ -152,3 +152,136 @@ img {
 	top:-10px;
 	padding: 0 10px;
 }
+
+/* Searcher */
+#edit-need {
+    position:relative;
+	float:left;
+    background: #FFFFFF url(../../images/lens.png) no-repeat;
+    background-position: 4px 4px !important;
+    padding: 10px 10px 10px 60px;
+    margin: 0 3px;
+	width: 66%;
+    height:50px;
+    border: 2px solid #000000;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    font-size:1.6em;
+}
+
+#edit-need:focus {
+    background: #FFFFFF url(../../images/lensalt.png) no-repeat;
+	background-color: #FFFFFF;
+    border-color: #ff6600;
+    outline: none;
+    -moz-box-shadow: 0 0 0 1px #e8c291 inset;
+    -webkit-box-shadow: 0 0 0 1px #E8C291 inset;
+    box-shadow: 0 0 0 1px #E8C291 inset;
+}
+
+::-webkit-input-placeholder {
+   color: #000000;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #000000;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #000000;  
+}
+
+:-ms-input-placeholder {  
+   color: #000000;  
+}
+
+#edit-offer {
+	position:relative;
+	float:left;
+    background: #ff6600;
+    padding: 5px;
+    margin:0px 3px;
+    width: 16%;
+    height:50px;
+    border: 2px solid #ff6600;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    font-size:1.8em;
+    text-align:center;
+    color:#FFFFFF;
+}
+
+#edit-offer:hover {
+    border-color: #ff6600;
+    color:#000000;
+}
+
+#edit-demand {
+	position:relative;
+	float:left;
+	background: #000000;
+    padding: 5px;
+    margin: 0 3px;
+	width: 16%;
+    height:50px;
+    border: 2px solid #000000;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    font-size:1.8em;
+    text-align:center;
+    color:#FFFFFF;
+}
+
+#edit-demand:hover {
+    border-color: #000000;
+    color:#ff6600;
+}
+
+#page-title {
+	display:none;
+}
+
+#search {
+	position:absolute;
+	left:-1px;
+	top:-30px;
+	width:100%;
+	height:65px;
+  	padding:0;
+  	margin:0;
+}
+#search-content {
+	position:relative;
+	width:71%;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+
+/* Searched */
+#searched {
+	background-color:red;
+}
+
+#searching {
+	margin: 50px 0 10px 0;
+}
+
+#left {
+	position:relative;
+	float:left;
+	width:70%;
+	margin: 0 30px;
+	background-color:yellow;
+}
+
+#right {
+	position:relative;
+	float:left;
+	width:280px;
+	background-color:green;
+}
+
