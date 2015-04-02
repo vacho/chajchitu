@@ -2,7 +2,7 @@
 
 #site-footer__wrapper {
   font-family: "Ubuntu", sans-serif;
-  padding: 35px 15px 30px;
+  padding: 10px;
 }
 .region-footer-first,
 .region-footer-second,
@@ -43,17 +43,14 @@
   }
 }
 #site-footer__wrapper h2 {
-  color: #c0c0c0;
-  color: rgba(255, 255, 255, 0.65);
+  color: #FFFFFF;
 }
 #site-footer__wrapper .block .content {
-  color: #c0c0c0;
-  color: rgba(255, 255, 255, 0.65);
+  color: #FFFFFF;
   font-size: 0.857em;
 }
 #site-footer__wrapper .block .content a {
-  color: #fcfcfc;
-  color: rgba(255, 255, 255, 0.8);
+  color: #FFFFFF;
 }
 #site-footer__wrapper .block .content a:hover,
 #site-footer__wrapper .block .content a:focus {
@@ -129,7 +126,7 @@
 }
 #site-footer__bottom {
   letter-spacing: 0.2px;
-  margin-top: 30px;
+  margin-top: 5px;
   border-top: 1px solid #555;
   border-color: rgba(255, 255, 255, 0.15);
 }

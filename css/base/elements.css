@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic);
 
 html {
-  height: 100%;
+  height: 98%;
 }
 body {
   min-height: 100%;
@@ -14,6 +14,15 @@ body {
   font-family: "Ubuntu", san-serif ;
   font-size: 87.5%;
 }
+
+#page-wrapper {
+ max-width:1280px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top:10px;
+ 
+}
+
 a {
   text-decoration: none;
   border-bottom: 1px dotted;
@@ -263,7 +272,7 @@ img {
 
 /* Searched */
 #searched {
-	background-color:red;
+
 }
 
 #searching {
@@ -275,13 +284,84 @@ img {
 	float:left;
 	width:70%;
 	margin: 0 30px;
-	background-color:yellow;
 }
 
+div[id^="searched_"]{
+	border: 2px solid #f6ffd5;
+	background-color: #f6ffd5;
+    border-radius: 10px;
+    margin:0 0 10px 0;
+    padding: 10px;
+}
+
+div[id^="searched_"] h2{
+    margin:0 0 5px 0;
+    font-weight: bold;
+}
+ 
+div[id^="searched_"] p{
+  margin:0;
+  padding:0;
+}
+
+span.highlight{
+  color: #ff6600;
+  font-weight: bold;
+}
+span.normal{
+  color: #000000;
+  font-weight: bold;
+}
+
+/* tags */
 #right {
-	position:relative;
+	position:relative; 
 	float:left;
 	width:280px;
-	background-color:green;
 }
 
+#right #tags {
+	border: 2px solid #f4e3d7;
+	background-color: #f4e3d7;
+    border-radius: 10px;
+    margin:0 0 10px 0;
+    padding: 10px;
+}
+
+#right #tags span.weight_1 {
+	font-size:1em;
+	margin: 5px;
+}
+#right #tags span.weight_2 {
+	font-size:1.3em;
+	margin: 5px;
+}
+#right #tags span.weight_3 {
+	font-size:1.6em;
+	margin: 5px;
+}
+#right #tags span.weight_4 {
+	font-size:1.9em;
+	margin: 5px;
+}
+#right #tags span.weight_5 {
+	font-size:2.2em;
+	margin: 5px;
+}
+#right #tags span.weight_6 {
+	font-size:2.5em;
+	margin: 5px;
+}
+#right #tags span.weight_7 {
+	font-size:2.8em;
+	margin: 5px;
+}
+
+/* adsense */
+#right #adsense {
+	border: 2px solid #f4e3d7;
+	background-color: #f4e3d7;
+    border-radius: 10px;
+    margin:0 0 10px 0;
+    padding: 10px;
+}

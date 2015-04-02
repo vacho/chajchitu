@@ -49,8 +49,9 @@ h1#page-title {
 }
 
 #content h2 {
+  color:#000000;
   margin-bottom: 2px;
-  font-size: 1.429em;
+  font-size: 1.5em;
   line-height: 1.4;
 }
 .node__content {
