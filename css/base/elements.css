@@ -156,21 +156,24 @@ img {
  
 /* Language switcher*/
 .language-switcher-language-url {
-	font-size:1.1em;
+	font-size:1em !important;
 	position: absolute;
 	top:-10px;
 	padding: 0 10px;
 }
 
-/* Searcher */
+/* 
+ * Searcher 
+ */
 #edit-need {
     position:relative;
-	float:left;
+	  float:left;
     background: #FFFFFF url(../../images/lens.png) no-repeat;
     background-position: 4px 4px !important;
     padding: 10px 10px 10px 60px;
     margin: 0 3px;
-	width: 66%;
+	  width: 56%;
+    min-width:250px;
     height:50px;
     border: 2px solid #000000;
     -moz-border-radius: 10px;
@@ -181,7 +184,7 @@ img {
 
 #edit-need:focus {
     background: #FFFFFF url(../../images/lensalt.png) no-repeat;
-	background-color: #FFFFFF;
+	  background-color: #FFFFFF;
     border-color: #ff6600;
     outline: none;
     -moz-box-shadow: 0 0 0 1px #e8c291 inset;
@@ -206,12 +209,13 @@ img {
 }
 
 #edit-offer {
-	position:relative;
-	float:left;
+	  position:relative;
+    float:left;
     background: #ff6600;
     padding: 5px;
     margin:0px 3px;
-    width: 16%;
+    width: 20%;
+    min-width:70px;
     height:50px;
     border: 2px solid #ff6600;
     -moz-border-radius: 10px;
@@ -228,12 +232,13 @@ img {
 }
 
 #edit-demand {
-	position:relative;
-	float:left;
-	background: #000000;
+  	position:relative;
+  	float:left;
+  	background: #000000;
     padding: 5px;
     margin: 0 3px;
-	width: 16%;
+  	width: 20%;
+    min-width:105px;
     height:50px;
     border: 2px solid #000000;
     -moz-border-radius: 10px;
@@ -270,10 +275,9 @@ img {
 }
 
 
-/* Searched */
-#searched {
-
-}
+/* 
+ * Searched 
+ */
 
 #searching {
 	margin: 50px 0 10px 0;
@@ -285,6 +289,10 @@ img {
 	width:70%;
 	margin: 0 30px;
 }
+#searched {
+
+}
+
 
 div[id^="searched_"]{
 	border: 2px solid #f6ffd5;

@@ -38,6 +38,168 @@
 [dir="rtl"] .site-logo {
   padding: 4px 9px 4px 4px;
 }
+@media all and (min-width: 320px) and (max-width: 600px) {
+  #block-languageswitcher {
+    margin:0 20px;
+  }
+
+  /* Searcher */
+
+  #search-content {
+    position:relative;
+    top:90px;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #edit-need {
+    background: #FFFFFF url(../../images/lensMin.png) no-repeat;
+    margin: 5px 5px;
+    padding: 5px 2px 4px 30px;
+    width: 96%;
+    min-width:129px;
+    height:30px;
+    font-size:1em;
+  }
+  #edit-need:focus {
+    background: #FFFFFF url(../../images/lensaltMin.png) no-repeat;
+    background-color: #FFFFFF;
+  }
+
+  #edit-offer {
+    position:relative;
+    float:left;
+    background: #ff6600;
+    padding: 5px;
+    margin:0px 2px;
+    width: 48%;
+    min-width:70px;
+    height:30px;
+    border: 2px solid #ff6600;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    font-size:1em;
+    text-align:center;
+    color:#FFFFFF;
+  }
+
+  #edit-demand {
+      position:relative;
+      float:left;
+      background: #000000;
+      padding: 5px;
+      margin: 0 2px;
+      width: 48%;
+      min-width:70px;
+      height:30px;
+      border: 2px solid #000000;
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 10px;
+      font-size:1em;
+      text-align:center;
+      color:#FFFFFF;
+  }
+
+  /* Searched */
+  #searching {
+    margin: 80px 0 0px 0;
+  }
+
+  #left {
+    position:relative;
+    width:100%;
+    margin: 0;
+  }
+  #searched {
+    width:100%;
+  }
+
+  /* tags */
+  #right {
+    position:relative; 
+    width:100%;
+  }
+
+  
+}
+
+@media all and (min-width: 601px) and (max-width: 850px) {
+  #block-languageswitcher {
+    margin:0 20px;
+  }
+
+  /* Searcher */
+
+  #search-content {
+    position:relative;
+    top:130px;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .form-item-need {
+    width: 100%;
+  }
+
+  #edit-need {
+    width: 49%;
+    font-size:1.3em;
+  }
+
+  #edit-offer {
+    width: 22%;
+    font-size:1.3em;
+  }
+
+  #edit-demand {
+    width: 22%;
+    font-size:1.3em;
+  }
+
+
+  /* Searched */
+  #searching {
+    margin: 80px 0 0px 0;
+  }
+
+  #left {
+    position:relative;
+    width:100%;
+    margin: 0;
+  }
+  #searched {
+    width:100%;
+  }
+
+  /* tags */
+  #right {
+    position:relative; 
+    width:100%;
+  } 
+}
+
+@media all and (min-width: 851px) and (max-width: 1163px) {
+  
+  /* Searched */
+  #left {
+    width:58%;
+    /*min-width: 470px;
+    max-width: 790px;*/
+  }
+  #searched {
+    width:100%;
+  }
+
+  /* tags */
+  #right {
+    width:280px;
+  } 
+}
+
+
 @media all and (min-width: 461px) and (max-width: 900px) {
   #logo,
   .site-logo {
