@@ -126,7 +126,7 @@
 }
 
 @media all and (min-width: 601px) and (max-width: 850px) {
-  #block-languageswitcher {
+  .language-switcher-language-session {
     margin:0 20px;
   }
 
