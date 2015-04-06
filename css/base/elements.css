@@ -155,7 +155,7 @@ img {
  */ 
  
 /* Language switcher*/
-.language-switcher-language-url {
+.block-language {
 	font-size:1em !important;
 	position: absolute;
 	top:-10px;

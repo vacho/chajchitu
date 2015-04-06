@@ -40,7 +40,7 @@
 }
 @media all and (min-width: 240px) and (max-width: 600px) {
   .block-language {
-    margin:0 20px!important;
+    margin:0 20px !important;
   }
 
   /* Searcher */
@@ -126,7 +126,7 @@
 }
 
 @media all and (min-width: 601px) and (max-width: 850px) {
-  .language-switcher-language-session {
+  .block-language {
     margin:0 20px;
   }
 
