@@ -44,8 +44,8 @@ a:active,
   background-color: #f6f6f2;
   border-color: #f9f9f9;
 }
-#site-footer__wrapper {
-  background: #ff6600;
+.site-footer {
+  background: #ff6600 !important;
 }
 .region-header,
 .region-header a,
@@ -59,7 +59,7 @@ a:active,
 
 .region-header li a.active,
 .region-header li a:hover {
-  color: #ff6600;
+  color: #ff6600 !important;
 }
 
 /* ---------- Color Form ----------- */
