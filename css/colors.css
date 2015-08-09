@@ -75,3 +75,8 @@ a:active,
   right: -20px;
   left: 0;
 }
+
+/* ------------ Language selector ------------*/
+#block-alternadordeidioma a.is-active {
+  color: #ff6600;
+}
