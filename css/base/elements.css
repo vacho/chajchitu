@@ -181,6 +181,7 @@ img {
 
 #busqueda {
     position:relative;
+    color: #000;
     float:left;
     background: #FFFFFF url(../../images/lens.png) no-repeat;
     background-position: 4px 4px !important;
@@ -196,7 +197,7 @@ img {
     font-size:1.6em;
 }
 
-#edit-need:focus {
+#busqueda:focus {
     background: #FFFFFF url(../../images/lensalt.png) no-repeat;
     background-color: #FFFFFF;
     border-color: #ff6600;
@@ -299,30 +300,30 @@ div.awesomplete > ul {
     z-index: 1;
     background: hsla(0,0%,100%,.9);
     background: linear-gradient(to bottom right, white, hsla(0,0%,100%,.8));
-    border: 2px solid #000000;
+    border: 2px solid darkorange;
     box-shadow: .05em .2em .6em rgba(0,0,0,.2);
     text-shadow: none;
 }
 
 div.awesomplete > ul > li:hover {
-    background: #f9a56d !important;
+    background: orange !important;
     color: black;
 }
 div.awesomplete > ul > li[aria-selected="true"] {
-    background: #ff6600 !important;
+    background: orange !important;
     color: white;
 }
 
 div.awesomplete mark {
-    background: #ff6600;
+    background: darkorange;
 }
 
 div.awesomplete li:hover mark {
-    background: #ff6600;
+    background: white;
 }
 
 div.awesomplete li[aria-selected="true"] mark {
-    background: #a51b00;
+    background: #fff;
     color: inherit;
 }
 
