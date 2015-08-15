@@ -425,3 +425,24 @@ span.normal{
     margin:0 0 10px 0;
     padding: 10px;
 }
+
+/* blog */
+.view-publicaciones li {
+    margin-bottom: 5px !important;
+    padding-bottom: 10px;
+}
+
+.view-publicaciones a {
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.view-blog h2 {
+    text-transform: uppercase;
+    margin: 10px 0px 20px 0px !important;
+}
+
+.view-blog img {
+    margin: 10px auto;
+}
+
