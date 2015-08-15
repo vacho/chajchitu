@@ -12,7 +12,7 @@ body {
   padding: 0;
   border: 0;
   font-family: "Ubuntu", san-serif ;
-  font-size: 87.5%;
+  font-size: 100%;
 }
 
 #page-wrapper {
@@ -446,3 +446,20 @@ span.normal{
     margin: 10px auto;
 }
 
+/* Content */
+#block-chajchitu-content {
+    background-color: #e5ffd5 !important;
+    border-radius: 10px;
+    margin:0 0 10px 0;
+    padding: 10px;
+    min-height: 20px;
+}
+
+.region-sidebar-second,
+#block-views-block-publicaciones-block-1 {
+    background-color: #ffe6d5 !important;
+    border-radius: 10px;
+    border: none;
+    margin:0 0 10px 0;
+    padding: 10px;
+}

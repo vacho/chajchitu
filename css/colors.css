@@ -28,13 +28,13 @@ body {
 }
 a,
 .link {
-  color: #0071b3;
+  color: darkorange;
 }
 a:hover,
 a:focus,
 .link:hover,
 .link:focus {
-  color: #018fe2;
+  color: orangered;
 }
 a:active,
 .link:active {

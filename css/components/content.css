@@ -54,6 +54,11 @@ h1#page-title {
   font-size: 1.5em;
   line-height: 1.4;
 }
+
+#content h2:hover {
+  color:darkorange;
+}
+
 .node__content {
   font-size: 1.071em;
 }
