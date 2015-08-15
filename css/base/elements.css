@@ -323,7 +323,7 @@ div.awesomplete li:hover mark {
 }
 
 div.awesomplete li[aria-selected="true"] mark {
-    background: #fff;
+    background: #000;
     color: inherit;
 }
 
