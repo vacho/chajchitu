@@ -468,3 +468,10 @@ span.normal{
     margin:0 0 10px 0;
     padding: 10px;
 }
+
+/*
+ * @todo remove this and solve 
+ */
+#messages {
+    display: none;
+}
