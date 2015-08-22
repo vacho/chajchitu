@@ -1,8 +1,9 @@
 /* -------------- User Profile   -------------- */
 
 .profile .field-name-field-user-picture {
-  float: none;
+    float: none;
 }
+
 div.password-suggestions {
-  border: 0;
+    border: 0;
 }

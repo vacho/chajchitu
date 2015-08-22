@@ -1,52 +1,62 @@
 /* ---------- Color Module Styles ----------- */
 
 body {
-  color: #333333;
-  background: #ececec;
+    color: #333333;
+    background: #ececec;
 }
+
 #page,
 #main-wrapper,
 .region-primary-menu .menu-item a.active,
 .region-primary-menu .menu-item .menu-item--active-trail a {
-  background: #ffffff;
+    background: #ffffff;
 }
+
 .tabs ul.primary li a.active {
-  background-color: #ffffff;
+    background-color: #ffffff;
 }
+
 .tabs ul.primary li.active a {
-  background-color: #ffffff;
-  border-bottom-color: #ffffff;
+    background-color: #ffffff;
+    border-bottom-color: #ffffff;
 }
+
 #header {
-  background-color: #ffffff;
-  background-image: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
-  background-image: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
-  border-top-style: solid;
-  border-top-color: #ff6600;
-  border-top-width: 8px;
-  padding: 10px 0 0 0;
+    background-color: #ffffff;
+    background-image: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+    background-image: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
+    border-top-style: solid;
+    border-top-color: #ff6600;
+    border-top-width: 8px;
+    padding: 10px 0 0 0;
 }
+
 a,
 .link {
-  color: darkorange;
+    color: darkorange;
 }
+
 a:hover,
 a:focus,
 .link:hover,
 .link:focus {
-  color: orangered;
+    color: orangered;
 }
+
 a:active,
 .link:active {
-  color: #23aeff;
+    color: #23aeff;
 }
+
 .sidebar .block {
-  background-color: #f6f6f2;
-  border-color: #f9f9f9;
+    background-color: #f6f6f2;
+    border-color: #f9f9f9;
 }
+
 .site-footer {
-  background: #ff6600 !important;
+    background: #ff6600 !important;
 }
+
 .region-header,
 .region-header a,
 #name-and-slogan,
@@ -54,29 +64,31 @@ a:active,
 #name-and-slogan a,
 .site-branding-block a,
 .region-secondary-menu .menu-item a {
-  color: #000000;
+    color: #000000;
 }
 
 .region-header li a.active,
 .region-header li a:hover {
-  color: #ff6600 !important;
+    color: #ff6600 !important;
 }
 
 /* ---------- Color Form ----------- */
 
 [dir="rtl"] .color-form #palette {
-  margin-left: 0;
-  margin-right: 20px;
+    margin-left: 0;
+    margin-right: 20px;
 }
+
 [dir="rtl"] .color-form .form-item label {
-  float: right;
+    float: right;
 }
+
 [dir="rtl"] .color-form #palette .lock {
-  right: -20px;
-  left: 0;
+    right: -20px;
+    left: 0;
 }
 
 /* ------------ Language selector ------------*/
 #block-alternadordeidioma a.is-active {
-  color: #ff6600;
+    color: #ff6600;
 }

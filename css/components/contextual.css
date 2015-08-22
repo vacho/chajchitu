@@ -1,11 +1,13 @@
 #header .contextual .trigger,
 #footer-wrapper .contextual .trigger {
-  border: none;
+    border: none;
 }
+
 .contextual-region .contextual .contextual-links a {
-  font-size: 0.923em;
-  text-shadow: 0 0 0 !important;
+    font-size: 0.923em;
+    text-shadow: 0 0 0 !important;
 }
+
 .contextual-links {
-  font-family: "Ubuntu", sans-serif;
+    font-family: "Ubuntu", sans-serif;
 }

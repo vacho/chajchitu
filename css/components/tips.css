@@ -1,7 +1,8 @@
 /* ----------------- Tips ----------------- */
 ul.tips {
-  padding: 0 0 0 1.25em; /* LTR */
+    padding: 0 0 0 1.25em; /* LTR */
 }
+
 [dir="rtl"] ul.tips {
-  padding: 0 1.25em 0 0;
+    padding: 0 1.25em 0 0;
 }
