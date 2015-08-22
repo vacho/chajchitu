@@ -377,7 +377,7 @@ span.normal{
 #right {
   position:relative; 
   float:left;
-  width:280px;
+  width:305px;
   margin: 70px 0px;
 }
 
@@ -422,13 +422,16 @@ span.normal{
     margin: 5px;
 }
 
-/* adsense */
+/*
+ * Adsense
+ */
 #right #adsense {
-  border: 2px solid #f4e3d7;
-  background-color: #f4e3d7;
-    border-radius: 10px;
-    margin:0 0 10px 0;
-    padding: 10px;
+    border: 2px solid #cdcccc;
+    background-color: #cdcccc;
+    border-radius: 5px;
+    margin: 0;
+    padding: 1px 0 0 1px;
+    text-align: center;
 }
 
 /* blog */
