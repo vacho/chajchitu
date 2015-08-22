@@ -532,3 +532,11 @@ span.normal {
 #messages {
     display: none;
 }
+
+
+/*
+ * website blocks
+ */
+#adsense-horizontal {
+    text-align: center;
+}
